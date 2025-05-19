@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_main">
+
+    <fragment
+        android:id="@+id/navigation_main"
+        android:name="com.example.karam.ui.main.MainFragment"
+        android:label="صفحه اصلی" />
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.example.karam.ui.history.HistoryFragment"
+        android:label="تاریخچه" />
+
+    <fragment
+        android:id="@+id/navigation_reports"
+        android:name="com.example.karam.ui.reports.ReportsFragment"
+        android:label="گزارش‌ها" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.karam.ui.settings.SettingsFragment"
+        android:label="تنظیمات" />
+
+</navigation> 
